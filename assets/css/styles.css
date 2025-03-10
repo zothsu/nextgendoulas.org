@@ -97,17 +97,19 @@ h1 {
   padding-top: 2em;
 }
 
-#services::after {
+#services::before, #services::after {
   content: '';
+  display: block;
+  background: #12c2e9;
   background-image: linear-gradient(
     45deg,
     #12c2e9,
     #c471ed,
     #f64f59
   );
-  position: absolute;
-  z-index: 1;
+  z-index: 100;
   transform: skewY(-5deg);
+  padding-bottom: 5em;
 }
   
   /* NAVBAR */
