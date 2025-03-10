@@ -189,3 +189,22 @@ h1 {
   right: 15px !important;
 }
 
+/* FOOTER */
+footer {
+  content: '';
+  display: block;
+  background: #12c2e9;
+  background-image: linear-gradient(
+    45deg,
+    #12c2e9,
+    #c471ed,
+    #f64f59
+  );
+  z-index: 100;
+  transform: skewY(-5deg);
+  padding: 1em;
+}
+
+footer div {
+  transform: skewY(5deg);
+}
