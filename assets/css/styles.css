@@ -64,6 +64,11 @@ body {
 
 section {
   padding-bottom: 4rem;
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg); /* Safari and older Chrome */
+  -moz-transform: rotate(5deg);    /* Older Firefox */
+  -ms-transform: rotate(5deg);     /* Older IE */
+  -o-transform: rotate(5deg);      /* Older Opera */
 }
 
 h1 {
@@ -85,6 +90,14 @@ h1 {
   margin-inline: auto;
   padding-inline: 1rem;
 }
+.text-box {
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+}
+
 .menu-icon {
   font-size: 2rem;
   cursor: pointer;
