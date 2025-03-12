@@ -5,6 +5,12 @@
   --quaternary-color: #12c2e9;
 }
 
+#services {
+  background: var(--primary-color);
+  background-image: linear-gradient(45deg,var(--quaternary-color),var(--secondary-color),var(--tertiary-color));
+  z-index: 100;
+  margin:-4em;
+}
 
 /* FONTS */
 @font-face {
@@ -90,6 +96,7 @@ h1 {
   margin-inline: auto;
   padding-inline: 1rem;
 }
+
 .text-box {
   transform: rotate(-5deg);
   -webkit-transform: rotate(-5deg);
@@ -103,7 +110,9 @@ h1 {
   cursor: pointer;
 }
 
-
+#about {
+padding-bottom: 8em;
+}
 
 .section-title {
   font-size:3rem;
@@ -111,8 +120,7 @@ h1 {
 }
 
 
-  /* NAVBAR */
-  
+  /* NAVBAR */  
   nav > ul {
     position: fixed;
     top: 0;
@@ -184,6 +192,7 @@ h1 {
   border-radius: 5px;
 }
 
+/* SLIDE IN NAV MENU */
 .appear {
   right: 15px !important;
 }
