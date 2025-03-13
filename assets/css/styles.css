@@ -9,7 +9,6 @@
   background: var(--primary-color);
   background-image: linear-gradient(45deg,var(--quaternary-color),var(--secondary-color),var(--tertiary-color));
   z-index: 100;
-  margin:-4em;
 }
 
 /* FONTS */
@@ -31,15 +30,12 @@ h1 {
   font-family: 'spaceGrotesk', sans-serif;
   font-size:2.3rem;
 }
-
 h2 {
   font-weight: 600;
 }
-
 p {
   font-weight: 300;
 }
-
 ul {
   text-align: left;
 }
@@ -68,14 +64,6 @@ body {
   display: grid;
 }
 
-section {
-  padding-bottom: 4rem;
-  transform: rotate(5deg);
-  -webkit-transform: rotate(5deg); /* Safari and older Chrome */
-  -moz-transform: rotate(5deg);    /* Older Firefox */
-  -ms-transform: rotate(5deg);     /* Older IE */
-  -o-transform: rotate(5deg);      /* Older Opera */
-}
 
 h1 {
   padding-top: 1em;
@@ -97,13 +85,7 @@ h1 {
   padding-inline: 1rem;
 }
 
-.text-box {
-  transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
-  -moz-transform: rotate(-5deg);
-  -ms-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-}
+
 
 .menu-icon {
   font-size: 2rem;
@@ -128,7 +110,7 @@ padding-bottom: 8em;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #2f0234;
+    background-color: var(--primary-color);
     padding: 1em;
   }
   
@@ -161,7 +143,7 @@ padding-bottom: 8em;
 .nav-bar button {
   border: none;
   margin-top: .5em;
-  background: rgba(80 0 100 / 0.7);
+  background: var(primary-color);
   border-radius: 50%;
   padding: .5em;
   color: #fff;
@@ -183,10 +165,8 @@ padding-bottom: 8em;
 
 
 .nav-container a {
-  color: #020617;
   text-decoration: none;
   display: block;
-  background: #e2e8f0;
   margin: 15px 0;
   padding: 1em;
   border-radius: 5px;
