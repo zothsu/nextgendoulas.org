@@ -2,7 +2,8 @@
   --primary-color: #2f0234;
   --secondary-color: #c471ed;
   --tertiary-color: #f64f59;
-  --quaternary-color: #12c2e9;
+  --quaternary-color: #12c2e9;;
+  --font-color: #fafcff;
 }
 
 #services {
@@ -103,70 +104,16 @@ padding-bottom: 8em;
 
 
   /* NAVBAR */  
-  nav > ul {
-    position: fixed;
-    top: 0;
-    right: 0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: var(--primary-color);
-    padding: 1em;
-  }
-  
-  nav > ul > li {
-    display: block;
-    margin-bottom: 1em;
-  }
-  
-  nav > ul > li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .nav-bar {
+  nav {
     display: flex;
-}
+    justify-content: space-between;
+    padding: 0 1em 0 1em;
+  
+  }
 
-.nav-bar a {
-  display: flex;
-}
-
-.nav-bar button {
-  border: none;
-  margin-top: .5em;
-  background: var(primary-color);
-  border-radius: 50%;
-  padding: .5em;
-  color: #fff;
-  outline-offset: -3px;
-  cursor: pointer;
-}
-
-.nav-container {
-  z-index: 11;
-  background: #f1f5f9;
-  position: fixed;
-  top: 65px;
-  right: -15em;
-  padding: 15px;
-  border-radius: 1em;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  transition: all 0.2s linear;
-}
-
-
-.nav-container a {
-  text-decoration: none;
-  display: block;
-  margin: 15px 0;
-  padding: 1em;
-  border-radius: 5px;
-}
-
-/* SLIDE IN NAV MENU */
-.appear {
-  right: 15px !important;
-}
+  nav a {
+    text-decoration: none;
+    color: var(--font-color);
+  }
 
 /* FOOTER */
