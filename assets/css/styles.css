@@ -125,15 +125,7 @@ padding-bottom: 8em;
   }
   
   .nav-bar {
-  z-index: 11;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: .1em 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
 }
 
 .nav-bar a {
