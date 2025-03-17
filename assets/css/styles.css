@@ -105,15 +105,43 @@ padding-bottom: 8em;
 
   /* NAVBAR */  
   nav {
+    position: fixed;
+    width: 100vw;
+    padding: 0 .21em 0 .21em;
+    background-image: linear-gradient(45deg,var(--quaternary-color),var(--secondary-color),var(--tertiary-color));
+  }
+
+  nav .wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 0 1em 0 1em;
-  
+    padding: .5em;
   }
 
   nav a {
-    text-decoration: none;
     color: var(--font-color);
+    text-decoration: none;
+    padding: .25em;
   }
 
+  /* added for nav bar navigation */
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
 /* FOOTER */
+footer {
+  background: var(--primary-color);
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
