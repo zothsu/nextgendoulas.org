@@ -7,9 +7,12 @@
 }
 
 #services {
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
   background: var(--primary-color);
   background-image: linear-gradient(45deg,var(--quaternary-color),var(--secondary-color),var(--tertiary-color));
   z-index: 100;
+  padding: 2em 0;
+  margin-bottom: 2em;
 }
 
 /* FONTS */
@@ -29,7 +32,8 @@ body {
 }
 h1 {
   font-family: 'spaceGrotesk', sans-serif;
-  font-size:2.3rem;
+  font-size:3rem;
+  padding: 2em 0 1em 0;
 }
 h2 {
   font-weight: 600;
@@ -63,11 +67,6 @@ body {
   background-color: #2f0234;
   color: #fafcff;
   display: grid;
-}
-
-
-h1 {
-  padding-top: 1em;
 }
 
 
@@ -106,6 +105,7 @@ padding-bottom: 8em;
   /* NAVBAR */  
   nav {
     position: fixed;
+    z-index: 100;
     width: 100vw;
     padding: 0 .21em 0 .21em;
     background-image: linear-gradient(45deg,var(--quaternary-color),var(--secondary-color),var(--tertiary-color));
@@ -145,3 +145,4 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
