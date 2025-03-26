@@ -92,8 +92,24 @@ body {
   cursor: pointer;
 }
 
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+#title h1 {
+  max-width: 90vw;       /* never wider than viewport minus padding */
+  font-size: clamp(2rem, 10vw, 6rem);
+  margin: 0;
+}
+
 #about {
 padding-bottom: 8em;
+padding-top: 2em;
 }
 
 .section-title {
